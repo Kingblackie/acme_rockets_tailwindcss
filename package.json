@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./src/input.css -o ./Build/styles/style.css -w",
+    "prettier": "npx prettier --write ./Build/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.4.0"
+  }
+}
